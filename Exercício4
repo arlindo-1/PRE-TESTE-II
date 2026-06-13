@@ -1,0 +1,22 @@
+//contagem de dígitos
+
+//versão interativa
+int contarDigitosIterativo(int n){
+    int cont = 0;
+
+    while(n > 0){
+        cont++;
+        n /= 10;
+    }
+
+    return cont;
+}
+
+//versão recursiva
+
+int contarDigitosRecursivo(int n){
+    if(n < 10)
+        return 1;
+
+    return 1 + contarDigitosRecursivo(n/10);
+}
