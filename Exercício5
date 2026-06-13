@@ -1,0 +1,13 @@
+//inverter o número
+
+
+#include <stdio.h>
+
+void inverter(int n){
+    if(n == 0)
+        return;
+
+    printf("%d", n%10);
+
+    inverter(n/10);
+}
