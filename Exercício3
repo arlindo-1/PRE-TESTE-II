@@ -1,0 +1,27 @@
+//duas funções que retornn o maior elemento do vector
+
+//versão interativa
+int maiorIterativo(int v[], int n){
+    int maior = v[0];
+
+    for(int i=1;i<n;i++){
+        if(v[i] > maior)
+            maior = v[i];
+    }
+
+    return maior;
+}
+
+//versão recursiva
+
+int maiorRecursivo(int v[], int n){
+    if(n == 1)
+        return v[0];
+
+    int maior = maiorRecursivo(v,n-1);
+
+    if(v[n-1] > maior)
+        return v[n-1];
+
+    return maior;
+}
