@@ -1,0 +1,23 @@
+//Soma de dois elementos de um vector
+
+int v[] = {2,4,6,8};
+
+// usando laço de repetição
+int somaIterativa(int v[], int n){
+    int soma = 0;
+
+    for(int i=0;i<n;i++){
+        soma += v[i];
+    }
+
+    return soma;
+}
+
+
+//usando recursao
+int somaRecursiva(int v[], int n){
+    if(n == 0)
+        return 0;
+
+    return v[n-1] + somaRecursiva(v,n-1);
+}
