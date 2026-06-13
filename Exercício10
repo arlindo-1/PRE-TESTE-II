@@ -1,0 +1,3 @@
+//A versão iterativa é mais difícil porque:
+//precisamos existe pilha de chamadas devemos devemosamos criar pilhas manualmente;
+//versãoemos guardar estado de cada movimento  versão recursiva é mais simples e mais fácil de entender.
