@@ -3,8 +3,9 @@ Preparação de teste II
 
 NOME: ARLINDO LUCAS MUCHANGA 
 
+//Nesses dois links tem exercícios resolvidos em documentos pdf
 
-EXERCÍCIO12:
+ EXERCÍCIO12:
 
 https://drive.google.com/file/d/1bi0khn4h7xzUyDy2HUI_g0hLx7coZXMF/view?usp=drivesdk
 
