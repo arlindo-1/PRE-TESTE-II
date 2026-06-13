@@ -1,0 +1,22 @@
+//contagem regressiva
+#include <stdio.h>
+
+//versão interativa
+
+void contagemIterativa(int n){
+    for(int i = n; i >= 0; i--){
+        printf("%d ", i);
+    }
+
+
+
+//versão recursiva
+
+void contagemRecursiva(int n){
+    if(n < 0)
+        return;
+
+    printf("%d ", n);
+    contagemRecursiva(n - 1);
+}
+}
