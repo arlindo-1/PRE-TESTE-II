@@ -1,0 +1,26 @@
+
+//busca em vector
+
+ //versão interativa
+int buscaIterativa(int v[], int n, int x){
+
+    for(int i=0;i<n;i++){
+        if(v[i] == x)
+            return i;
+    }
+
+    return -1;
+}
+
+//versão recursiva
+
+int buscaRecursiva(int v[], int n, int x){
+
+    if(n == 0)
+        return -1;
+
+    if(v[n-1] == x)
+        return n-1;
+
+    return buscaRecursiva(v,n-1,x);
+}
