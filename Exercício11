@@ -1,0 +1,26 @@
+//Enqueue
+Inserir elemento.
+enqueue(10);
+//fila
+10
+
+
+
+//Dequeue
+Remover elemento da frente.
+
+//Antes
+10 20 30
+
+//depois 
+20 30
+
+
+
+//Peek
+Consultar o primeiro.
+//Fila:
+10 20 30
+
+//resultado
+10
